@@ -9,7 +9,7 @@
     <pre>
     <form onsubmit="demo()">
     <label><b>Name:</b></label>
-    <input type="name" id ="name" required/>
+    <input type="name" id="name" required/>
     <label><b>mbl no:</b></label>
     <input type="text" id="mbl_no" required/>
     <label><b>blood group:</b></label>
@@ -42,20 +42,20 @@ function demo(){
     img.style.borderRadius="30%"
 
 
-  let name = document.getElementById("name");
-  let ip1 = document.getElementById("ip1")
+  let name=document.getElementById("name");
+  let ip1=document.getElementById("ip1")
   div1.appendChild(ip1)
-  ip1.innerHTML = "<small><b>NAME</b></small>:"+ name.value
+  ip1.innerHTML="<small><b>NAME</b></small>:"+ name.value
 
 
-  let phno = document.getElementById("mbl_no")
+  let phno=document.getElementById("mbl_no")
   let ip2=document.getElementById("ip2")
   div1.appendChild(ip2)
-  ip2.innerHTML ="<small><b>MBL NO:</b></small>:"+ phno.value
+  ip2.innerHTML="<small><b>MBL NO:</b></small>:"+ phno.value
 
   
-  let  blood = document.getElementById("blood")
-  let ip3 = document.getElementById("ip3")
+  let  blood=document.getElementById("blood")
+  let ip3=document.getElementById("ip3")
   div1.appendChild(ip3)
   ip3.innerHTML="<small><b>BLOOD GROUP:</b></small>:"+ blood.value
 }
